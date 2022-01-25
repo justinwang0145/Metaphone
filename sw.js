@@ -7,5 +7,5 @@ self.addEventListener("install", e => {
 });
 
 self.addEventListener("fetch", e => {
-    console.log('Interecepting fetch request for: ${e.request.url}')
+    console.log(`Interecepting fetch request for: ${e.request.url}`);
 });
