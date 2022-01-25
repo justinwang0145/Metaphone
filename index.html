@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="theme-color" content="#009578">
 
-        <title>Metaphone</title>
+        <title id="title">Metaphone</title>
         <link rel="stylesheet" href="src/master.css">
         <link rel="manifest" href="manifest.json">
         <link rel="apple-touch-icon" href="images/logo192.png">
@@ -13,5 +13,8 @@
     <body>
         <p>Hi my name is Dom</p>
         <script src="src/index.js"></script>
+        <script>
+            title.style.color = `rgb(${Math.random()*255}, 128, 127)`;
+        </script>
     </body>
 </html>
